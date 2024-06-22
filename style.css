@@ -35,7 +35,7 @@
     background-color: #426e81;
 }
 body{
-    background-image: url(./assets/homebg.jpg);
+    background-image: url(./assets/bg1.png);
     background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -44,7 +44,7 @@ body{
 }
 @media (min-width:992px) {
     body{
-        background-image: url(./assets/homebg.jpg);
+        background-image: url(./assets/bg1.png);
         background-size:100% ;
      
 
@@ -292,7 +292,7 @@ footer a{
 @media(max-width:768px) {
 
     body{
-        background-image: url(./assets/homebg1.jpg);
+        background-image: url(./assets/bg1.png);
 background-attachment: fixed;
 height: 100vh;
     }
