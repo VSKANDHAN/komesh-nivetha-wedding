@@ -293,6 +293,8 @@ footer a{
 
     body{
         background-image: url(./assets/bg1.png);
+        backdrop-filter: blur(3px);
+
 background-attachment: fixed;
 height: 100vh;
     }
@@ -311,7 +313,10 @@ height: 100vh;
         border: none;
     }
     .intro{
+        padding-top: 20px;
+
         flex-direction: column-reverse;
+        justify-content: center;
     }
 
 
@@ -360,6 +365,8 @@ height: 100vh;
     }
     .intro-img img{
     width: 360px;
+    position: relative;
+
     
     }
     .intro-content button{
